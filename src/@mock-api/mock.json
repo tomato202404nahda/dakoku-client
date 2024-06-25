@@ -1,0 +1,468 @@
+{
+  "employee_data": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "username": "string",
+      "employeeNumber": {
+        "type": "number"
+      },
+      "password": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "nameEn": {
+        "type": "string"
+      },
+      "nameJa": {
+        "type": "string"
+      },
+      "nameFg": {
+        "type": "string"
+      },
+      "nameKr": {
+        "type": "string"
+      },
+      "displayPicture": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string"
+      },
+      "startDate": {
+        "type": "string"
+      },
+      "onSiteInfo": {
+        "type": "object",
+        "properties": {
+          "siteName": {
+            "type": "string"
+          },
+          "onSiteStatus": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "examples": [
+      {
+        "id": "1",
+        "username": "kim_younghwan",
+        "employeeNumber": 824,
+        "password": "tomato123",
+        "email": "tomato.202404.kimyoungh@gmail.com",
+        "nameEn": "Kim Younghwan",
+        "nameJa": "金　瑩煥",
+        "nameFg": "キム　ヨンハン",
+        "nameKr": "김영환",
+        "displayPicture": "image9",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "2",
+        "username": "yu_jueun",
+        "employeeNumber": 825,
+        "password": "tomato123",
+        "email": "tomato.202404.yuju@gmail.com",
+        "nameEn": "Yu Jueun",
+        "nameJa": "劉 柱恩",
+        "nameFg": "ユ　ジュウン",
+        "nameKr": "유주은",
+        "displayPicture": "image2",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "3",
+        "username": "jeon_hojin",
+        "employeeNumber": 826,
+        "password": "tomato123",
+        "email": "tomato.202404.jeonhoj@gmail.com",
+        "nameEn": "Jeon Hojin",
+        "nameJa": "全　浩辰",
+        "nameFg": "ジョン　ホジン",
+        "nameKr": "전호진",
+        "displayPicture": "image3",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "4",
+        "username": "choi_gichang",
+        "employeeNumber": 827,
+        "password": "tomato123",
+        "email": "tomato.202404.choigc@gmail.com",
+        "nameEn": "Choi Gichang",
+        "nameJa": "崔  起彰",
+        "nameFg": "チェ　ギチャン",
+        "nameKr": "최기창",
+        "displayPicture": "image23",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "5",
+        "username": "lee_namyong",
+        "employeeNumber": 828,
+        "password": "tomato123",
+        "email": "tomato.202404.leeny@gmail.com",
+        "nameEn": "Lee Namyong",
+        "nameJa": "李　南龍",
+        "nameFg": "イ　ナムヨン",
+        "nameKr": "이남용",
+        "displayPicture": "image4",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "6",
+        "username": "seo_juhyun",
+        "employeeNumber": 829,
+        "password": "tomato123",
+        "email": "tomato.202404.seojh@gmail.com",
+        "nameEn": "Seo Juhyun",
+        "nameJa": "徐　周絃",
+        "nameFg": "ソ　ジュヒョン",
+        "nameKr": "서주현",
+        "displayPicture": "image18",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "7",
+        "username": "noh_kwangho",
+        "employeeNumber": 830,
+        "password": "tomato123",
+        "email": "tomato.202404.nohkh@gmail.com",
+        "nameEn": "Noh Kwangho",
+        "nameJa": "盧　廣鎬",
+        "nameFg": "ノ　グァンホ",
+        "nameKr": "노광호",
+        "displayPicture": "image11",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "8",
+        "username": "sun_yuanhan",
+        "employeeNumber": 831,
+        "password": "tomato123",
+        "email": "tomato.202404.sunyh@gmail.com",
+        "nameEn": "Sun Yuanhan",
+        "nameJa": "孫　遠涵",
+        "nameFg": "ソン　エンカン",
+        "nameKr": "",
+        "displayPicture": "image5",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "9",
+        "username": "han_juyeon",
+        "employeeNumber": 832,
+        "password": "tomato123",
+        "email": "tomato.202404.hanjy@gmail.com",
+        "nameEn": "Han Juyeon",
+        "nameJa": "韓　周延",
+        "nameFg": "ハン　ジュヨン",
+        "nameKr": "한주연",
+        "displayPicture": "image16",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "10",
+        "username": "park_hunmyeong",
+        "employeeNumber": 833,
+        "password": "tomato123",
+        "email": "tomato.202404.parkhm@gmail.com",
+        "nameEn": "Park Hunmyeong",
+        "nameJa": "韓　周延",
+        "nameFg": "パク　フンミョン",
+        "nameKr": "박훈명",
+        "displayPicture": "image22",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "11",
+        "username": "kang_jekoo",
+        "employeeNumber": 834,
+        "password": "tomato123",
+        "email": "tomato.202404.kangjk@gmail.com",
+        "nameEn": "Kang Jekoo",
+        "nameJa": "姜　濟求",
+        "nameFg": "カン　ジェグ",
+        "nameKr": "강제구",
+        "displayPicture": "image12",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "12",
+        "username": "jang_younghun",
+        "employeeNumber": 835,
+        "password": "tomato123",
+        "email": "tomato.202404.jangyh@gmail.com",
+        "nameEn": "Jang Younghun",
+        "nameJa": "張　榮勳",
+        "nameFg": "チャン　ヨンフン",
+        "nameKr": "장영훈",
+        "displayPicture": "image24",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "13",
+        "username": "lee_inmok",
+        "employeeNumber": 836,
+        "password": "tomato123",
+        "email": "tomato.202404.leeim@gmail.com",
+        "nameEn": "Lee Inmok",
+        "nameJa": "李　仁睦",
+        "nameFg": "イ　インモク",
+        "nameKr": "이인목",
+        "displayPicture": "image19",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "14",
+        "username": "wu_yifan",
+        "employeeNumber": 837,
+        "password": "tomato123",
+        "email": "tomato.202404.wuyf@gmail.com",
+        "nameEn": "Wu Yifan",
+        "nameJa": "呉　一凡",
+        "nameFg": "ゴ　イチボン",
+        "nameKr": "",
+        "displayPicture": "image8",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "15",
+        "username": "ho_thi_hoai",
+        "employeeNumber": 838,
+        "password": "tomato123",
+        "email": "tomato.202404.hoth@gmail.com",
+        "nameEn": "Ho Thi Hoai",
+        "nameJa": "HO THI HOAI",
+        "nameFg": "ホアイ",
+        "nameKr": "",
+        "displayPicture": "image21",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "16",
+        "username": "kim_minsung",
+        "employeeNumber": 839,
+        "password": "tomato123",
+        "email": "tomato.202404.kimmins@gmail.com",
+        "nameEn": "Kim Minsung",
+        "nameJa": "金　民成",
+        "nameFg": "キム　ミンソン",
+        "nameKr": "김민성",
+        "displayPicture": "image13",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "17",
+        "username": "choi_junyoung",
+        "employeeNumber": 840,
+        "password": "tomato123",
+        "email": "tomato.202404.choijy@gmail.com",
+        "nameEn": "Choi Junyoung",
+        "nameJa": "崔  峻榮",
+        "nameFg": "チェ　ジュンヨン",
+        "nameKr": "최준영",
+        "displayPicture": "image1",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "18",
+        "username": "lee_seungjun",
+        "employeeNumber": 841,
+        "password": "tomato123",
+        "email": "tomato.202404.leeseungj@gmail.com",
+        "nameEn": "Lee Seungjun",
+        "nameJa": "李　承峻",
+        "nameFg": "イ　スンジュン",
+        "nameKr": "이승준",
+        "displayPicture": "image17",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "19",
+        "username": "hayakawa_ryunosuke",
+        "employeeNumber": 842,
+        "password": "tomato123",
+        "email": "tomato.202404.hayakawarnsk@gmail.com",
+        "nameEn": "Hayakawa Ryunosuke",
+        "nameJa": "早川　龍之介",
+        "nameFg": "ハヤカワ　リュウノスケ",
+        "nameKr": "",
+        "displayPicture": "image6",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "20",
+        "username": "ravi",
+        "employeeNumber": 843,
+        "password": "tomato123",
+        "email": "tomato.202404.alifian@gmail.com",
+        "nameEn": "Ravi",
+        "nameJa": "RAVI",
+        "nameFg": "ラブイ",
+        "nameKr": "",
+        "displayPicture": "image14",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "21",
+        "username": "nahda",
+        "employeeNumber": 844,
+        "password": "tomato123",
+        "email": "tomato.202404.nahda@gmail.com",
+        "nameEn": "Nahda",
+        "nameJa": "NAHDA",
+        "nameFg": "ナーダ",
+        "nameKr": "",
+        "displayPicture": "image15",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "22",
+        "username": "jo_donghwi",
+        "employeeNumber": 845,
+        "password": "tomato123",
+        "email": "tomato.202404.jodh@gmail.com",
+        "nameEn": "Jo Donghwi",
+        "nameJa": "曺　東煇",
+        "nameFg": "ジョ　ドンフィ",
+        "nameKr": "",
+        "displayPicture": "image10",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      },
+      {
+        "id": "23",
+        "username": "king_goatbi",
+        "employeeNumber": 846,
+        "password": "tomato123",
+        "email": "tomato.202404.baron@gmail.com",
+        "nameEn": "GOATbi",
+        "nameJa": "GOATBI",
+        "nameFg": "ゴビ",
+        "nameKr": "",
+        "displayPicture": "image20",
+        "role": "employee",
+        "startDate": "2024-04-01",
+        "onSiteInfo": {
+          "siteName": "",
+          "onSiteStatus": "Waiting"
+        }
+      }
+    ]
+  }
+}

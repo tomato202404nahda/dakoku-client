@@ -1,0 +1,592 @@
+/* "x-examples": {
+  "example-1": {
+    "uid": "XgbuVEXBU5gtSKdbQRP1Zbbby1i1",
+    "password": "admin",
+    "role": "admin",
+    "data": {
+      "displayName": "Abbott Keitch",
+      "photoURL": "assets/images/avatars/brian-hughes.jpg",
+      "email": "admin@fusetheme.com",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": ["apps.calendar", "apps.mailbox", "apps.contacts"]
+    }
+  },
+  "example-2": {
+    "uid": "1",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Kim Younghwan",
+      "workRole": "employee",
+      "employeeNumber": 824,
+      "nameJa": "金　瑩煥",
+      "nameFg": "キム　ヨンハン",
+      "nameKr": "김영환",
+      "photoURL": "assets/images/avataras/photos/image9.png",
+      "email": "tomato.202404.kimyoungh@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-3": {
+    "uid": "2",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Yu Jueun",
+      "workRole": "employee",
+      "employeeNumber": 825,
+      "nameJa": "劉 柱恩",
+      "nameFg": "ユ　ジュウン",
+      "nameKr": "유주은",
+      "photoURL": "assets/images/avataras/photos/image2.png",
+      "email": "tomato.202404.yuju@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-4": {
+    "uid": "3",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Jeon Hojin",
+      "workRole": "employee",
+      "nameJa": "全　浩辰",
+      "nameFg": "ジョン　ホジン",
+      "nameKr": "전호진",
+      "employeeNumber": 826,
+      "photoURL": "assets/images/avataras/photos/image3.png",
+      "email": "tomato.202404.jeonhoj@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-5": {
+    "uid": "4",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Choi Gichang",
+      "workRole": "employee",
+      "nameJa": "崔  起彰",
+      "nameFg": "チェ　ギチャン",
+      "nameKr": "최기창",
+      "employeeNumber": 827,
+      "photoURL": "assets/images/avataras/photos/image23.png",
+      "email": "tomato.202404.choigc@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-6": {
+    "uid": "5",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Lee Namyong",
+      "workRole": "employee",
+      "nameJa": "李　南龍",
+      "nameFg": "イ　ナムヨン",
+      "nameKr": "이남용",
+      "employeeNumber": 828,
+      "photoURL": "assets/images/avataras/photos/image4.png",
+      "email": "tomato.202404.leeny@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-7": {
+    "uid": "6",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Seo Juhyun",
+      "workRole": "employee",
+      "nameJa": "徐　周絃",
+      "nameFg": "ソ　ジュヒョン",
+      "nameKr": "서주현",
+      "employeeNumber": 829,
+      "photoURL": "assets/images/avataras/photos/image18.png",
+      "email": "tomato.202404.seojh@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-8": {
+    "uid": "7",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Noh Kwangho",
+      "workRole": "employee",
+      "nameJa": "盧　廣鎬",
+      "nameFg": "ノ　グァンホ",
+      "nameKr": "노광호",
+      "employeeNumber": 830,
+      "photoURL": "assets/images/avataras/photos/image11.png",
+      "email": "tomato.202404.nohkh@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-9": {
+    "uid": "8",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Sun Yuanhan",
+      "workRole": "employee",
+      "nameJa": "孫　遠涵",
+      "nameFg": "ソン　エンカン",
+      "nameKr": "",
+      "employeeNumber": 831,
+      "photoURL": "assets/images/avataras/photos/image5.png",
+      "email": "tomato.202404.sunyh@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-10": {
+    "uid": "9",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Han Juyeon",
+      "workRole": "employee",
+      "nameJa": "韓　周延",
+      "nameFg": "ハン　ジュヨン",
+      "nameKr": "한주연",
+      "employeeNumber": 832,
+      "photoURL": "assets/images/avataras/photos/image16.png",
+      "email": "tomato.202404.hanjy@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-11": {
+    "uid": "10",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Park Hunmyeong",
+      "workRole": "employee",
+      "nameJa": "韓　周延",
+      "nameFg": "パク　フンミョン",
+      "nameKr": "박훈명",
+      "employeeNumber": 833,
+      "photoURL": "assets/images/avataras/photos/image22.png",
+      "email": "tomato.202404.parkhm@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-12": {
+    "uid": "11",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Kang Jekoo",
+      "workRole": "employee",
+      "nameJa": "姜　濟求",
+      "nameFg": "カン　ジェグ",
+      "nameKr": "강제구",
+      "employeeNumber": 834,
+      "photoURL": "assets/images/avataras/photos/image12.png",
+      "email": "tomato.202404.kangjk@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-13": {
+    "uid": "12",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Jang Younghun",
+      "workRole": "employee",
+      "nameJa": "張　榮勳",
+      "nameFg": "チャン　ヨンフン",
+      "nameKr": "장영훈",
+      "employeeNumber": 835,
+      "photoURL": "assets/images/avataras/photos/image24.png",
+      "email": "tomato.202404.jangyh@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-14": {
+    "uid": "13",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Lee Inmok",
+      "workRole": "employee",
+      "nameJa": "李　仁睦",
+      "nameFg": "イ　インモク",
+      "nameKr": "이인목",
+      "employeeNumber": 836,
+      "photoURL": "assets/images/avataras/photos/image19.png",
+      "email": "tomato.202404.leeim@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-15": {
+    "uid": "14",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Wu Yifan",
+      "workRole": "employee",
+      "nameJa": "呉　一凡",
+      "nameFg": "ゴ　イチボン",
+      "nameKr": "",
+      "employeeNumber": 837,
+      "photoURL": "assets/images/avataras/photos/image8.png",
+      "email": "tomato.202404.wuyf@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-16": {
+    "uid": "15",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Ho Thi Hoai",
+      "workRole": "employee",
+      "nameJa": "HO THI HOAI",
+      "nameFg": "ホアイ",
+      "nameKr": "",
+      "employeeNumber": 838,
+      "photoURL": "assets/images/avataras/photos/image21.png",
+      "email": "tomato.202404.hoth@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-17": {
+    "uid": "16",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Kim Minsung",
+      "workRole": "employee",
+      "nameJa": "金　民成",
+      "nameFg": "キム　ミンソン",
+      "nameKr": "김민성",
+      "employeeNumber": 839,
+      "photoURL": "assets/images/avataras/photos/image13.png",
+      "email": "tomato.202404.kimmins@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-18": {
+    "uid": "17",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Choi Junyoung",
+      "workRole": "employee",
+      "nameJa": "崔  峻榮",
+      "nameFg": "チェ　ジュンヨン",
+      "nameKr": "최준영",
+      "employeeNumber": 840,
+      "photoURL": "assets/images/avataras/photos/image1.png",
+      "email": "tomato.202404.choijy@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-19": {
+    "uid": "18",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Lee Seungjun",
+      "workRole": "employee",
+      "nameJa": "李　承峻",
+      "nameFg": "イ　スンジュン",
+      "nameKr": "이승준",
+      "employeeNumber": 841,
+      "photoURL": "assets/images/avataras/photos/image17.png",
+      "email": "tomato.202404.leeseungj@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-20": {
+    "uid": "19",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Hayakawa Ryunosuke",
+      "workRole": "employee",
+      "nameJa": "早川　龍之介",
+      "nameFg": "ハヤカワ　リュウノスケ",
+      "nameKr": "",
+      "employeeNumber": 842,
+      "photoURL": "assets/images/avataras/photos/image6.png",
+      "email": "tomato.202404.hayakawarnsk@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-21": {
+    "uid": "20",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Ravi",
+      "workRole": "employee",
+      "nameJa": "RAVI",
+      "nameFg": "ラブイ",
+      "nameKr": "",
+      "employeeNumber": 843,
+      "photoURL": "assets/images/avataras/photos/image14.png",
+      "email": "tomato.202404.alifian@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-22": {
+    "uid": "21",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Nahda",
+      "workRole": "employee",
+      "nameJa": "NAHDA",
+      "nameFg": "ナーダ",
+      "nameKr": "",
+      "employeeNumber": 844,
+      "photoURL": "assets/images/avataras/photos/image15.png",
+      "email": "tomato.202404.nahda@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-23": {
+    "uid": "22",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "Jo Donghwi",
+      "workRole": "employee",
+      "nameJa": "曺　東煇",
+      "nameFg": "ジョ　ドンフィ",
+      "nameKr": "조동휘",
+      "employeeNumber": 845,
+      "photoURL": "assets/images/avataras/photos/image10.png",
+      "email": "tomato.202404.jodh@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  },
+  "example-24": {
+    "uid": "23",
+    "password": "tomato123",
+    "role": "admin",
+    "data": {
+      "displayName": "GOATbi🐐",
+      "workRole": "employee",
+      "nameJa": "GOATBI",
+      "nameFg": "ゴビ",
+      "nameKr": "",
+      "employeeNumber": 846,
+      "photoURL": "assets/images/avataras/photos/image20.png",
+      "email": "tomato.202404.baron@gmail.com",
+      "onSiteInfo": {
+        "siteName": "",
+        "onSiteStatus": "Waiting"
+      },
+      "startDate": "2024-04-01",
+      "settings": {
+        "layout": {},
+        "theme": {}
+      },
+      "shortcuts": []
+    }
+  }
+} */

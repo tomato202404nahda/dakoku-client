@@ -1,0 +1,13 @@
+{
+  "roles": [
+    "employee",
+    "supervisor",
+    "sectionManager",
+    "deputyDepartmentManager",
+    "departmentManager",
+    "generalManager",
+    "director",
+    "president"
+  ],
+  "status": ["waiting", "onSite"]
+}
